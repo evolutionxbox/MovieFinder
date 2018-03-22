@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import Header from './Header/Header';
 
 class MovieFinder extends Component {
   render() {
     return (
       <div className="MovieFinder">
-        <header>
-          <h1>Movie Finder</h1>
-        </header>
+        <Filter name="Genre" items={[{name: 'Hello', id: 'hello1'}]} />
       </div>
     );
   }
