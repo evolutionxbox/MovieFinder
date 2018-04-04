@@ -4,7 +4,7 @@ import Title from '../Title/Title';
 
 const Header = ({ title }) => {
   return (
-    <header>
+    <header className="header">
       <Title level="1" title={title} />
     </header>
   );

@@ -1,0 +1,20 @@
+/*----------------
+HEADER
+----------------*/
+
+.header {
+  background-color: #222;
+  color: #ddd;
+  line-height: 80px;
+  overflow: hidden;
+  position: sticky;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.header > h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
