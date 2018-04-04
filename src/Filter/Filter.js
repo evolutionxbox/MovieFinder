@@ -7,7 +7,7 @@ const Filter = ({name, items}) => {
       <Title title={name} level="3" />
       <ul>
         {items.map(item => {
-          return <li key={item.id} onClick={console.log(item.name)}>{item.name}</li>
+          return <li key={item} onClick={() => console.log(item)}>{item}</li>
         })}
       </ul>
     </div>
