@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header/Header';
 import Filter from './Filter/Filter';
+import Data from './fake-data';
 
 class MovieFinder extends Component {
   render() {
