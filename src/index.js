@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './main.css';
+import MovieFinder from './MovieFinder';
+import './styles/normalize.css';
+import './styles/index.css';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<MovieFinder />, document.getElementById('root'));
 registerServiceWorker();
