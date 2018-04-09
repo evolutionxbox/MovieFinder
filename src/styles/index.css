@@ -33,3 +33,8 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+.isEnabled {
+  font-weight: bold;
+  font-style: italic;
+}
